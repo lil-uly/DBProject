@@ -13,7 +13,8 @@ USE `gradebook`;
   PRIMARY KEY (`CRS_ID`),
   UNIQUE KEY `CRS_ID_UNIQUE` (`CRS_ID`),
   UNIQUE KEY `CRS_NUM_UNIQUE` (`CRS_NUM`)
-
+ );
+ 
 CREATE TABLE `Student` (
   `STU_ID` int NOT NULL AUTO_INCREMENT,
   `STU_LNAME` varchar(45) NOT NULL,
